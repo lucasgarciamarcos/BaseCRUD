@@ -16,7 +16,7 @@ import java.util.Vector;
  */
 public class Control {
 
-    Vector lista = new Vector();
+    private Vector lista = new Vector();
     Conexao con = new Conexao();
 
     public Vector listar() throws Exception {
